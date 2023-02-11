@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-size: 1920px;
+}
+
+.title{
+    color: rgba(219, 200, 252, 0.808);
+
+}
+
+.container{
+    width: 20.8%;
+    height: 30%;
+    background-image: url(./img/clockbackground.gif); 
+    font-style: italic;
+    display: grid;
+    align-items:center;
+    justify-content: center;
+    position: center;
+    color: rgba(219, 200, 252, 0.808);
+}
+
+.container img{
+    position: absolute;
+    top: 4%;
+    right: 2%;
+    height: 160px;
+    width: 200px;
+}
+.clock_container {
+    position: fixed;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    font-size: 130%;
+    color: rgba(195, 165, 248, 0.808);
+    font-weight: bold;
+    font-style: oblique;
+    top: 8%;
+    left: 14%;
+    height: 19px;
+    width: 136px;
+    background-image:url(./img/clckBckgrnd.gif) ;
+}
+.Hobbies {
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+}
+.CONTACT {
+    position: absolute;
+    bottom: 10%;
+    right: 45%;
+}
+.BINO {
+    position: absolute;
+    right: -1.5%;
+    bottom: 3% 
+    ;
+}
+.Plant {
+    position: absolute;
+    top: 9%;
+    right: 27%;
+}
+.YT{
+    position: absolute;
+    bottom: -3%;
+    right: 40%;
+}
